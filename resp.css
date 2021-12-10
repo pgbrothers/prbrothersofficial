@@ -1,0 +1,126 @@
+/* media screen responsive */
+
+@media (max-width : 700px) {
+    header{
+        height: auto;
+    }
+}
+
+@media (max-width: 1300px){
+    .navBar{
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        transition: all .5s ease-in;
+        color: white;
+        width: 100%;
+        margin: auto;
+    }
+
+    .menuBar-logo {
+        display: block;
+        visibility: visible;
+        width: 20px;
+    }
+    .respNav-active{
+        background: cornflowerblue;
+        padding: 10px ;
+        width: 300px;
+    }
+    .navLinks li{
+        display: none;
+    }
+    .respNav{
+        list-style: none;
+        width: 95%;
+        margin: 50px auto;
+    }
+
+    .respNav li{
+        margin: 10px 20px 0 0;
+        
+    }
+
+    .respNav li a{
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+        border-radius: 7px;
+    }
+
+    .respNav li:hover{
+        background: cornflowerblue;
+        padding: 10px ;
+        width: 300px;
+    }
+
+    .header-post{
+        font-family: 'Poppins', sans-serif;
+        width: 60%;
+        margin: 10px auto;
+    }
+    
+    .header-post h2{
+        font-size: 22px;
+        color: rgb(250, 127, 13);
+    }
+    
+    .header-post h2 span{
+        color: white;
+    }
+    
+    .header-post h3{
+        margin: 10px 0;
+        font-size: 12px;
+    }
+    
+    .header-post h4{
+        color: turquoise;
+    }
+    
+    .featured-content-card{
+        
+        height: 580px;
+        margin: 10px 10px;
+        padding: 0px 0px;
+        border-radius: 7px;
+        box-shadow: 0 .125rem 1rem rgba(34, 34, 34, 0.6);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Poppins',sans-serif;
+    }
+
+    .featured-content-text-resp{
+        margin-left: 60px;
+    }
+    .featured-content-card h2{
+        font-size: 18px;
+        
+    }
+
+    .respNav li a:hover{
+        background: rgb(247, 41, 5);
+        color: white;
+        width: 400px;
+    }
+    .sidebar{
+        visibility: hidden;
+    }
+
+    .footer-main-div-1 img{
+        margin: 20px 0;
+    }
+
+    .footer-main-div-3{
+        margin-top: 30px;
+    }
+    .footer-credit{
+        font-size: 14px;
+        margin: 5px 10px;
+    }
+}
